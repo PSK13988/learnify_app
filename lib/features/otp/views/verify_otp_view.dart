@@ -31,11 +31,11 @@ class _VerifyOtpViewState extends State<VerifyOtpView> {
             padding: Paddings.all_20,
             child: Column(
               children: [
-                const SizedBox(height: 20),
+                const SizedBox(height: 15),
                 const Center(child: ImageViewer(imagePath: Assets.users)),
-                const SizedBox(height: 30),
+                const SizedBox(height: 25),
                 const PhoneNumberView(),
-                const SizedBox(height: 40),
+                const SizedBox(height: 30),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -45,12 +45,12 @@ class _VerifyOtpViewState extends State<VerifyOtpView> {
                     _textFieldOTP(first: false, last: true),
                   ],
                 ),
-                const SizedBox(height: 40),
+                const SizedBox(height: 30),
                 RoundedRedButton(
                   onPressed: _onPressed,
                   title: AppConstants.btnVerifyOtp,
                 ),
-                const SizedBox(height: 40),
+                const SizedBox(height: 30),
                 const Padding(
                   padding: Paddings.all_22,
                   child: TextViews(
@@ -72,7 +72,7 @@ class _VerifyOtpViewState extends State<VerifyOtpView> {
   Widget _textFieldOTP({required bool first, required bool last}) {
     return SizedBox(
       height: 65,
-      width: 85,
+      width: 80,
       child: AspectRatio(
         aspectRatio: 1.0,
         child: TextField(

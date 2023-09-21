@@ -139,7 +139,9 @@ class _PhoneNumberFieldState extends State<PhoneNumberField> {
       );
   void _onDropDownChanged(String? value) {
     if (value != null) {
+      _value = value;
       context.read<OtpProvider>().setCountryCode(value);
+      setState(() {});
     }
   }
 }
