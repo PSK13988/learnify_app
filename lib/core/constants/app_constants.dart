@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
 class AppConstants {
-  const AppConstants._();
-
   // titles
   static const getOtpTitle = 'Log in';
   static const verifyOtpTitle = 'OTP Verify';
@@ -23,8 +21,6 @@ class AppConstants {
 }
 
 class Paddings {
-  const Paddings._();
-
   static const all_20 = EdgeInsets.all(20.0);
   static const all_22 = EdgeInsets.all(22.0);
   static const from_0_16_8_16 = EdgeInsets.fromLTRB(0, 16, 8, 16);

@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
 class Styles {
-  Styles._();
-
   static TextStyle titleStyle = const TextStyle(
     fontFamily: 'Montserrat',
     fontSize: 24,
@@ -22,13 +20,6 @@ class Styles {
     fontSize: 12,
     fontWeight: FontWeight.normal,
     color: Colors.grey,
-  );
-
-  static TextStyle appDropDownStyle = const TextStyle(
-    fontFamily: 'Montserrat',
-    fontSize: 12,
-    fontWeight: FontWeight.normal,
-    color: Colors.black87,
   );
 
   static TextStyle appPhoneNumberHint = TextStyle(color: Colors.grey.shade500);
